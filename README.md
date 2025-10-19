@@ -95,3 +95,5 @@ This project is an ideal showcase for resumes and portfolios demonstrating profi
 ```bash
 git remote add origin https://github.com/ravi-kumar-chinta/Student-Records-Dashboard.git
 ```
+## Thank You
+Thank you for checking out this project! Contributions, feedback, and suggestions are always welcome. Happy coding!
