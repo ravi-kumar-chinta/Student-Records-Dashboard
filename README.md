@@ -60,37 +60,38 @@ The project can be packaged as a single, runnable JAR file that can execute on a
 **Package the application:**
 ```bash
 mvn package
-``
-Run the JAR:
-
+```
+## Run the JAR:
+```bash
 java -jar target/Student-Records-Dashboard-0.0.1-SNAPSHOT.jar
-
-3. Open in Browser
+```
+## 3. Open in Browser
 
 After the application starts (using any of the methods above), open your web browser at:
-
+```bash
 http://localhost:8080
-
+```
 ☁️ Deployment to Cloud / PaaS
 
 The built JAR file is cloud-ready and can be deployed easily on modern platforms. The following example uses Cloud Foundry (cf):
 
 Ensure the project is packaged:
-
+```bash
 mvn install
+```
 
 Deploy using the Cloud Foundry CLI:
 
-cf push choose-name-for-your-server -p target/*.jar -b https://github.com/cloudfoundry/java-buildpack.git
+`cf push choose-name-for-your-server -p target/*.jar -b https://github.com/cloudfoundry/java-buildpack.git`
 
 Note: Replace choose-name-for-your-server with a unique, memorable name for your application.
 If using Java 7 or older compatibility (see the java7 branch), you may be able to omit the -b flag.
 
-📝 Repository Notes
+# 📝 Repository Notes
 
 This project is an ideal showcase for resumes and portfolios demonstrating proficiency in Java full-stack development, modern component-based UI, and Spring Boot integration.
 
-Remote Configuration
+### Remote Configuration
 ```bash
 git remote add origin https://github.com/ravi-kumar-chinta/Student-Records-Dashboard.git
 ```
